@@ -1,2 +1,18 @@
 Problem Statement: https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/
 
+Score is RMSE(Root Mean Squared Error)
+
+NaiveForecast(Today's prediction is same as yesterday's value) => 269.5
+Moving Averge(rolling forecast mean of 30 days) => 261.67
+ARIMA => 263.611
+
+Linear Regression
+- Converted the time series problem to regression by shifting the values from 1 to 30 day lag
+Score => 390.82
+
+Dense Neural Network 
+Score => 489.36
+
+LSTM
+Score => 351.90
+
