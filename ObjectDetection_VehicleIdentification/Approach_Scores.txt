@@ -1,0 +1,6 @@
+Problem Statement: https://datahack.analyticsvidhya.com/contest/janatahack-computer-vision-hackathon/#ProblemStatement
+
+Scores: mAP
+
+Approach 1 => 
+- Pretrained Mask RCNN Coco model with only last layer being trained.
